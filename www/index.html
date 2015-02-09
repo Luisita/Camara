@@ -34,19 +34,17 @@
         <script src="js/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
-        <title>Eventos</title>
+        <title>Toma Foto</title>
     </head>
     <body>
         <div class="pag" id="index" data-role="page" data-theme="a">
             <div data-role="header" id="header" data-position="fixed">
-                <img src="img/logo.png" id="logo" />
+                <h1 >Tomar foto</h1>
             </div>
             <div role="main" class="ui-content" id="principal">
                 <div id="info">
-                    <h1>AndCamera</h1>
-                    <p>Esta aplicaci&oacuten te permitir&aacute tomar fotograf&iacuteas desde tu c&aacutemara.<br>
-                    Para iniciar da click en el &iacutecono de la camara.</p>
-                    <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-camera" id="btnCamera" onclick="initCamara()">Iniciar c&aacutemara</button>
+                    <h1>Toma Fotografía</h1>
+                    <button id="btnCamera" onclick="initCamara()">Toma foto</button>
                 </div>
                 <img src="" id="imagenTomada">
             </div>
